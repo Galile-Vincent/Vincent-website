@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Poppins' sans-serif;
+    font-family: Arial, sans-serif;
     box-sizing:border-box;
 }
 html{
@@ -147,10 +147,15 @@ nav ul li a:hover:after{
     font-size: 50px;
     margin-bottom: 30px;
 }
+
 .services-list div h2{
     font-size: 30px;
     font-weight: 500;
     margin-bottom: 15px;
+}
+.services-list div p{
+    font-size: 15px;
+
 }
 .services-list div a{
     text-decoration: none;
