@@ -1,149 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-		<meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Vincent</title>
-        <link rel="stylesheet" href="style.css">
-        <script src="https://kit.fontawesome.com/f33ae54c26.js" crossorigin="anonymous"></script>>
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vincent</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Hack.css">
+</head>
 <body>
-    <div id="header">
-        <div class="container">
-            <nav>
-                <img src="image/logo.jpg" class="logo">
-                <ul id="sidemenu">
-                    <li><a href="#header">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#experience">Experience</a></li>
-                    <li><a href="https://www.notion.so/Vincent-s-coding-Journey-75a0ea9fee5e412cbbf952a099ce5b1c?pvs=4" class="button"><i class="fa-solid fa-up-right-from-square"></i> Notion</a></li>
-                    <i class="fas fa-xmark" onclick="closemenu()"></i>
-                </ul>
-                <i class="fas fa-bars" onclick="openmenu()"></i>
-        </nav>
-        <div class="header-text">
-            <p>   </p>
-            <h1>   </h1>
-        </div>
-    </div>
-</div>
-<div id="about">
-    <div class="container">
-        <div class="row">
-            <div class="about-col-1">
-                <img src="image/vv.jpg" >
-            </div>
-            <div class="about-col-2">
-                <h1 class="sub-title">About Me</h1>
-                <p>My name is Vincent. I started learning programing in 2020.</p>
 
-            <div class="tab-titles">
-                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-                <p class="tab-links" onclick="opentab('experience')">Experience</p>
-                <p class="tab-links" onclick="opentab('awards')">Awards</p>
-            </div>
-            <div class="tab-contents active-tab" id="skills">
+<!-- Header -->
+    <header>
+        <h1>Vincent Chiang </h1>
+        <nav>
             <ul>
-                <li><span>SwiftUI</span><br>I started learning Swift in 2022. I learned it because I saw the news about the WWDC22 student challenge winners. And I started </li>
-                <li><span>Java</span><br>I started learning Java in 2022 March. </li>
-                <li><span>C</span><br>Designfqwefqwefqwefqwefqwefq</li>
-                <li><span>C++</span><br>Designfqwefqwefqwefqwefqwefq</li>
-                <li><span>Arduino</span><br>Designfqwefqwefqwefqwefqwefq</li>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="https://www.notion.so/Vincent-s-coding-Journey-75a0ea9fee5e412cbbf952a099ce5b1c?pvs=4" class="button"></i> Notion</a></li>
             </ul>
-               </div>
-            <div class="tab-contents" id="experidence">
-            <ul>
-                <li><span>President of the Robotics Club</span><br>I am the third president of the Robotics Club. And I taught Arduino and some electronics in the classes.</li>
-                <li><span>FRC</span><br>Designfqwefqwefqwefqwefqwefq</li>
-                <li><span>WWDC23 Student Challenge</span><br>Designfqwefqwefqwefqwefqwefq</li>
-                <li><span>Technical team leader of the NHCS 11th</span><br>Designfqwefqwefqwefqwefqwefq</li>
-                <li><span>Arduino</span><br>Designfqwefqwefqwefqwefqwefq</li>
-            </ul>
-               </div>
-            <div class="tab-contents" id="awards">
-            <ul>
-                <li><span>2022第五屆全國中等學校學生新興科技</span><br>Designfqwefqwefqwefqwefqwefq</li>
-                <li><span>111年全國高中職學生電資類群創意競賽</span><br>Designfqwefqwefqwefqwefqwefq</li>
-                <li><span>臺北市111年度中小學資通訊應用大賽智組型機器人</span><br>Designfqwefqwefqwefqwefqwefq</li>
-                <li><span>C++</span><br>Designfqwefqwefqwefqwefqwefq</li>
-                <li><span>Arduino</span><br>Designfqwefqwefqwefqwefqwefq</li>
-            </ul>
-               </div>
-            </div>
-        </div>
-    </div>
-</div>
+    </nav>
+    </header>
 
-<div id="experience">
-    <div class="container">
-        <h1 class="sub-title">My Interest</h1>
-        <div class="services-list">
-            <div>
-                <i class="fa-solid fa-code"></i>
-                <h2>Web Design</h2>
-                <p>fweqwefqwej;doiqfjiqoewjeoifjqiwehuiqjiwejfqoiewffwqwefqwe  fqwef qew fqewf q</p>
-                <a href="#">learn more</a>
-            </div>
-            <div>
-                <i class="fa-brands fa-swift"></i>
-                <h2>UI Design</h2>
-                <p>fweqwefqwej;doiqfjiqoewjeoifjqiwehuiqjiwejfqoiewffwqwefqwe  fqwef qew fqewf q</p>
-                <a href="#">learn more</a>
-            </div>
-            <div>
-                <i class="fa-brands fa-java"></i>
-                <h2>Google Design</h2>
-                <p>fweqwefqwej;doiqfjiqoewjeoifjqiwehuiqjiwejfqoiewffwqwefqwe  fqwef qew fqewf qfqfwefqwefqweqwefqewfqwefqwefqwefqwefq</p>
-                <a href="#">learn more</a>
-            </div>
-        </div>
-    </div>
-</div>
-<div id="contact">
-    <div class="container">
-        <div class="row">
-            <div class="contact-left">
-                <h1 class="sub-title">Contact Me</h1>
-                <p><i class="fa-solid fa-paper-plane"></i>vincent.ua.248@gmail.com</p>
-                <div class="social-icons">
-                    <a href="https://instagram.com/vincent._0523?igshid=NTc4MTIwNjQ2YQ=="><i class="fa-brands fa-instagram"></i></a>
-                    <a href=""><i class="fa-brands fa-twitter"></i></a>
-                    <a href="https://github.com/Galile-Vincent"><i class="fa-brands fa-github"></i></a>
-                </div>
-            </div>
-            <div class="contact-right">
-                <form name="submit-to-google-sheet">
-                    <input type="text" name="Name" placeholder="Your Name" required>
-                    <input type="email" name="email" placeholder="Your Email" required>
-                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
-                    <button type="submit" class="btn btn2">Submit</button>
-                </form>
-                <span id="msg">hello</span>
-            </div>
-        </div>
-    </div>
-    <div class="copyright">
-        <p>Copyright @ VIncent. Made with by </p>
-    </div>
-</div>
+<!-- Header end-->
 
-<script>
+<!-- main -->
+    <main>
+        <!-- Intro -->
+        <section class="s1">
+            <div class="output-console"></div>
+            <h1>Welcome to Vincent's website!</h1>
+            <h2><blockquote>"I can do all things."</blockquote></h2>
+            <p><a href="#">Learn more</a></p>
+        </section>
+        
+        <!-- Intro end -->
 
-    var tablinks = document.getElementsByClassName("tab-links");
-    var tabcontents = document.getElementsByClassName("tab-contents");
 
-    function opentab(tabname){
-        for(tablink of tablinks){
-            tablink.classList.remove("active-link");
-        }
-        for(tabcontent of tabcontents){
-            tabcontent.classList.remove("active-tab");
-        }
-        event.currentTarget.classList.add("active-link");
-        document.getElementById(tabname).classList.add("active-tab")
-    }
-</script>
+        <!-- Experience -->
+        <section class="s2">
+
+        </section>
+        <!-- Experience end -->
+
+    </main>
+
+<!-- main end -->
+
+<!-- footer -->
+    <footer>
+        
+    </footer>
+<!-- footer end -->
+
 
 <script>
 
@@ -155,30 +65,7 @@
     function closemenu(){
         sidemen.style.right="-200px";
     }
-
 </script>
-<script>
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbx2E72FGc33ZoymOxIhqqZtqLesDBcENBCEhw0bUdvm4v-8EKHxRA53_t1RtD888dHBtw/exec'
-    const form = document.forms['submit-to-google-sheet']
-  const msg = document.getElementById("msg")
-    form.addEventListener('submit', e => {
-      e.preventDefault()
-      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-        .then(response => {
-            msg.innerHTML="Message sent successfully!"
-            setTimeout(function(){
-                msg.innerHTML=""
-            },5000)
-            form.reset()
-        })
-        .catch(error => console.error('Error!', error.message))
-    })
-  </script>
-  <style>
-    .logo {
-        width: 200px; /* Adjust the width as needed */
-        height: auto; /* Maintain aspect ratio */
-    }
-</style>
+<script src="Hack.js"></script>
 </body>
 </html>
